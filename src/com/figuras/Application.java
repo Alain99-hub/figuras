@@ -5,6 +5,9 @@ import com.figuras.model.Rectangle;
 import com.figuras.model.Square;
 import com.figuras.model.Triangle;
 
+import java.lang.Math.*;
+
+
 public class Application {
 
     public static void main(String[] args) {
@@ -12,6 +15,11 @@ public class Application {
         Circle circle1 = new Circle(5), circle2 = new Circle(7);
         Rectangle rectangle = new Rectangle(10, 20);
         Square squares[] = new Square[5];
+        squares[0] = new Square(1);
+        squares[1] = new Square(2);
+        squares[2] = new Square(3);
+        squares[3] = new Square(4);
+        squares[4] = new Square(5);
         Triangle triangle = new Triangle(10, 20);
 
 

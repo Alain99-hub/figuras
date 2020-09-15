@@ -10,10 +10,10 @@ public class Rectangle {
     }
 
     public double getArea(){
-        return 0;
+        return  base * height;
     }
 
     public void draw(){
-        System.out.println("Circulo");
+        System.out.println("Rectangle");
     }
 }

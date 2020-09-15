@@ -8,10 +8,11 @@ public class Square {
     }
 
     public double getArea() {
-        return 0;
+        return Math.pow(side,2);
+
     }
 
     public void draw() {
-        System.out.println("Circulo");
+        System.out.println("Square");
     }
 }
